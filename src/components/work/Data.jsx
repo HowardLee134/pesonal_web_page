@@ -1,39 +1,39 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
-import Work3 from "../../assets/work3.jpg"
-import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
+import Work1 from "../../assets/project1.jpeg"
+import Work2 from "../../assets/project2.png"
+import Work3 from "../../assets/project3.png"
+import Work4 from "../../assets/project4.png"
+import Work5 from "../../assets/project5.png"
 
 export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web design',
-        category: 'web',
+        title: ' MIPS Processor Simulator Suite',
+        category: 'Backend',
     },
     {
         id: 2,
         image: Work2,
-        title: 'Web design2',
-        category: 'app',
+        title: 'Language expression Interpreter ',
+        category: 'Backend',
     },
     {
         id: 3,
         image: Work3,
-        title: 'Web design3',
-        category: 'design',
+        title: 'Personal React WebPage',
+        category: 'Frontend',
     },
     {
         id: 4,
         image: Work4,
-        title: 'Web design23',
-        category: 'app',
+        title: 'R Data Analysis',
+        category: 'Data Science',
     },
     {
         id: 5,
         image: Work5,
-        title: 'Web design4',
-        category: 'app',
+        title: 'Machine Learning Data Analytics',
+        category: 'Data Science',
     },
 ];
 
@@ -42,12 +42,12 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'web',
+        name: 'Frontend',
     },
     {
-        name: 'app',
+        name: 'Backend',
     },
     {
-        name: 'design',
+        name: 'Data Science',
     },
 ];
