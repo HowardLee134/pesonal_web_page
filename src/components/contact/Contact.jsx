@@ -42,10 +42,10 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__card">
-                        <i className="bx bxl-messenger contact__card-icon"></i>
+                        <i className="bx bxl-instagram contact__card-icon"></i>
 
-                        <h3 className="contact_card-title">Messager</h3>
-                        <span className="contatc_card-data">user.123</span>
+                        <h3 className="contact_card-title">Message</h3>
+                        <span className="contatc_card-data">mino_mrm</span>
 
                     </div>
                 </div>
