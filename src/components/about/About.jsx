@@ -21,7 +21,7 @@ const About = () => {
                     Seeking for a full time job as software Engineer. 
                 </p>
 
-                <a download="MingLee_Resume.pdf" href="./assets/MingLee_Resume.pdf" className="button button--flex">
+                <a download="MingLee_Resume.pdf" href={CV} className="button button--flex">
                     Download CV
                     <svg
               class="button__icon"
