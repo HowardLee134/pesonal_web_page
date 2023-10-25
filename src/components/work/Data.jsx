@@ -3,6 +3,7 @@ import Work2 from "../../assets/project2.png"
 import Work3 from "../../assets/project3.png"
 import Work4 from "../../assets/project4.png"
 import Work5 from "../../assets/project5.png"
+import Work6 from "../../assets/project6.png"
 
 export const projectsData = [
     {
@@ -35,6 +36,12 @@ export const projectsData = [
         title: 'Machine Learning Data Analytics',
         category: 'Data Science',
     },
+    {
+        id: 6,
+        image: Work6,
+        title: 'AR Dodn',
+        category: 'AR/VR',
+    },
 ];
 
 export const projectsNav = [
@@ -46,6 +53,9 @@ export const projectsNav = [
     },
     {
         name: 'Backend',
+    },
+    {
+        name: 'AR/VR',
     },
     {
         name: 'Data Science',
