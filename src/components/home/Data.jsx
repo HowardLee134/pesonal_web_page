@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from "../../assets/MingLee_Resume.pdf";
+import CV from "../../assets/Resume_HowardMingLee.pdf";
 const Data = () => {
   return (
     <div className='home__data'>
@@ -62,7 +62,7 @@ const Data = () => {
           a Software Engineer in the future. 
         </p>
 
-        <a download="MingLee_Resume.pdf" href={CV}  className="button button--flex">
+        <a download="Resume_HowardMingLee.pdf" href={CV}  className="button button--flex">
                     Download CV
                     <svg
               class="button__icon"

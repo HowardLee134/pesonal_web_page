@@ -39,7 +39,7 @@ export const projectsData = [
     {
         id: 6,
         image: Work6,
-        title: 'AR Dodn',
+        title: 'AR Odon',
         category: 'AR/VR',
     },
 ];
