@@ -26,7 +26,7 @@ const CloudTechnologiesAndDatabases = () => {
               </div>
     
               <div className="skills__data">
-                <i class="bx bx-badge-check"></i>
+              {/*<i class="bx bx-badge-check"></i>*/}
     
                 <div>
                   <h3 className="skills__name"></h3>
@@ -55,7 +55,7 @@ const CloudTechnologiesAndDatabases = () => {
               </div>
     
               <div className="skills__data">
-                <i class="bx bx-badge-check"></i>
+                {/*<i class="bx bx-badge-check"></i>*/}
     
                 <div>
                   <h3 className="skills__name"></h3>

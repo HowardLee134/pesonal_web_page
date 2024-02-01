@@ -21,12 +21,24 @@
 }
 
 
-.work__container{
-    grid-template-columns: repeat(2, max-content);
+.work__container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     gap: 3rem;
     justify-content: center;
-}
+  }
 
+  .work__pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 .work__card{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -68,6 +80,38 @@
     background-color: var(--title-color);
     color: var(--container-color);
 }
+
+.work__pagination {
+    display: flex;
+    justify-content: center; /* This will center the pagination buttons */
+    align-items: center;
+    padding: 1rem;
+    
+  }
+  
+  /* Target the buttons within the pagination container */
+  .work__pagination button {
+    width: 3rem; /* Fixed width */
+  height: 3rem; /* Fixed height */
+    padding: 0.5rem 1rem;
+    margin: 0 1rem; /* Adjust the margin to control the distance between buttons */
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 25%;
+  }
+  
+  .work__pagination button.active {
+    background-color: #007bff; /* Or your active color */
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .work__pagination button:hover {
+    background-color: #0056b3; /* Or your hover color */
+    color: white;
+  }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
